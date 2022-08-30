@@ -1,8 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXExchange", "FXExchange\FXExchange.csproj", "{F7F30D7B-4A63-462F-9B9B-AA4DDA73C988}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange", "Exchange\Exchange.csproj", "{5E3D6790-9A35-4C69-B0F2-2FC330055101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange", "CurrencyExchange\CurrencyExchange.csproj", "{F47EA224-17BD-4B2D-A433-DE965C991E13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{733D3FE3-54FA-4751-9044-C386798F2000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeTests", "CurrencyExchangeTests\CurrencyExchangeTests.csproj", "{176B93FE-BFC9-4F64-8518-E30C0ECAB513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeTests", "ExchangeTests\ExchangeTests.csproj", "{63F4FEF9-8222-40AA-B382-371A8F5B48C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +16,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7F30D7B-4A63-462F-9B9B-AA4DDA73C988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7F30D7B-4A63-462F-9B9B-AA4DDA73C988}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7F30D7B-4A63-462F-9B9B-AA4DDA73C988}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7F30D7B-4A63-462F-9B9B-AA4DDA73C988}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E3D6790-9A35-4C69-B0F2-2FC330055101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E3D6790-9A35-4C69-B0F2-2FC330055101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3D6790-9A35-4C69-B0F2-2FC330055101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3D6790-9A35-4C69-B0F2-2FC330055101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47EA224-17BD-4B2D-A433-DE965C991E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47EA224-17BD-4B2D-A433-DE965C991E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47EA224-17BD-4B2D-A433-DE965C991E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47EA224-17BD-4B2D-A433-DE965C991E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176B93FE-BFC9-4F64-8518-E30C0ECAB513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176B93FE-BFC9-4F64-8518-E30C0ECAB513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176B93FE-BFC9-4F64-8518-E30C0ECAB513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176B93FE-BFC9-4F64-8518-E30C0ECAB513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F4FEF9-8222-40AA-B382-371A8F5B48C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F4FEF9-8222-40AA-B382-371A8F5B48C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F4FEF9-8222-40AA-B382-371A8F5B48C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F4FEF9-8222-40AA-B382-371A8F5B48C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{176B93FE-BFC9-4F64-8518-E30C0ECAB513} = {733D3FE3-54FA-4751-9044-C386798F2000}
+		{63F4FEF9-8222-40AA-B382-371A8F5B48C9} = {733D3FE3-54FA-4751-9044-C386798F2000}
 	EndGlobalSection
 EndGlobal
